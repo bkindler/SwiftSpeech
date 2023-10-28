@@ -65,6 +65,7 @@ public class SpeechRecognizer {
             recognitionRequest.taskHint = sessionConfiguration.taskHint
             recognitionRequest.contextualStrings = sessionConfiguration.contextualStrings
             recognitionRequest.interactionIdentifier = sessionConfiguration.interactionIdentifier
+            recognitionRequest.addsPunctuation = true
             
             // Create a recognition task for the speech recognition session.
             // Keep a reference to the task so that it can be cancelled.
